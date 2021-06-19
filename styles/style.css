@@ -1,0 +1,41 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10rem;    
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 2rem;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border: 0.1px solid;
+    border-radius: 30px;    
+    border-color: lightgray;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img {
+    display:block;
+}
